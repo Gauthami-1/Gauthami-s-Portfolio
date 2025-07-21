@@ -1,0 +1,16 @@
+# macOS system files
+.DS_Store
+
+# Node dependencies (if using Node.js)
+node_modules/
+
+# Log files
+*.log
+
+# Compiled files
+dist/
+build/
+
+# OS or editor files
+Thumbs.db
+*.swp
