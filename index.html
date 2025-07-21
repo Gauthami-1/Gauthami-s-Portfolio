@@ -1,0 +1,374 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Gauthami Yene - Portifolio </title>
+</head>
+
+<body>
+    <!-- Header Section Code -->
+    <header class="header">
+        <a href="#home" class="logo"> Gauthami Yenne</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experiences</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certification">Certifications</a>
+        </nav>
+    </header>
+
+    <!-- Home Section code -->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="assets/Profile.png" alt="Profile Image">
+        </div>
+        <div class="home-content">
+            <h3>Hello! My name is</h3>
+            <h1>Gauthami Yenne</h1>
+            <h3> And I'm a <span class="multiple-text">Software Engineer</span></h3>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/gauthami-yenne/" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+
+                <a href="https://github.com/Gauthami-1" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section Code -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>I'm a <span> Software Engineer</span></h3>
+            <p>I'm a computer engineer interested in <b>software engineering</b> and <b>applied AI</b>! My work spans
+                <b>full-stack web application development</b>, working with <b>databases</b>, and learning new tools.
+                I've worked with a wide range of tools and technologies including <b>React</b>, <b>Node.js</b>,
+                <b>MySQL</b>, and <b>Python</b> for full-stack development; <b>RESTful APIs</b>, <b>LLMs</b>, and
+                <b>Crew AI</b> for applied AI projects; and <b>Selenium</b> for automation and web scraping. I'm also
+                familiar with deploying and managing projects on cloud platforms like <b>AWS</b> and <b>Google Cloud
+                    (GCP)</b>. I'm driven by curiosity and a passion for learning, always exploring new technologies and
+                frameworks. I enjoy collaborating with others to turn ideas into impactful solutions.</p>
+        </div>
+        <div class="about-img">
+            <img src="assets/Profile.png" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Experience Code Section -->
+    <section class="experience" id="experience">
+        <h2 class="heading">Job <span>Experience</span></h2>
+        <div class="experience-timeline">
+            <div class="timeline-fill"></div>
+            <i class='bx bx-time scroll-dot'></i>
+            <div class="exp-container left">
+                <div class="exp-card">
+                    <div class="exp-date">July 2023 - May 2025</div>
+                    <h3>University of Illinois Urbana-Champaign - Computer Science Researcher</h3>
+                    <ul class="experience-points">
+                        <li>Built and maintained tooling across two research tracks—misinformation (UC San Diego) and AI
+                            misuse in education (University of Edinburgh)—enabling data collection, processing, and
+                            analysis for academic publication.</li>
+                        <li>Developed a <b>Python Selenium web scraper</b> to collect political news articles from 20
+                            domains (10 reliable, 10 unreliable), targeting specific date ranges. Collected ∼600 links
+                            per day across multiple cycles to support a fact verification pipeline.</li>
+                        <li>Engineered and integrated <b>LLM-based scripts</b> to extract and classify AI policy
+                            documents into predefined categories, reducing weeks of manual labeling to minutes per
+                            article and enabling large-scale qualitative analysis.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-container right">
+                <div class="exp-card">
+                    <div class="exp-date">Summer 2024</div>
+                    <h3>Persistent Systems - R&D Intern, GenAI Team</h3>
+                    <ul class="experience-points">
+                        <li>Engineered a GenAI-based travel assistant using <b>CrewAI</b>, designing two autonomous
+                            agents to collect user preferences and recommend hotels and transportation options based on
+                            metro proximity, flight timing, and meeting locations.</li>
+                        <li><b>Integrated multiple APIs (OpenAI, Serper, Google Maps)</b> with real-time web scraping
+                            tools to dynamically source and filter hotel data, enabling fully automated, context-aware
+                            itinerary generation.</li>
+                        <li>Built an interactive <b>Streamlit UI</b> to improve usability and streamline testing
+                            workflows, contributing to GenAI-focused R&D efforts that expanded Persistent Systems'
+                            generative AI capabilities and agent-based applications for enterprise use.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-container left">
+                <div class="exp-card">
+                    <div class="exp-date">Summer 2023</div>
+                    <h3>Zscaler - Software Engineering Intern</h3>
+                    <ul class="experience-points">
+                        <li>Designed and implemented a <b>Java-based backend</b> for a security policy management system
+                            within the <b>Spring Boot</b> framework, handling rule creation for firewall, malware, and
+                            DLP policies.</li>
+                        <li>Built a full-stack web application with <b>REST APIs and MySQL</b>, enabling real-time
+                            policy updates and ensuring data consistency across client environments.</li>
+                        <li>Developed an intuitive <b>React.js</b> landing page to visualize policy status summaries.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-container right">
+                <div class="exp-card">
+                    <div class="exp-date">Summer 2023</div>
+                    <h3>Blueberry Technology - Software Engineering Intern</h3>
+                    <ul class="experience-points">
+                        <li>Developed a <b>Robot Operating System (ROS)</b> integrating firmware sensors (lidar,
+                            cameras, battery, IMU) with a software interface, optimizing sensor data retrieval and
+                            analysis.</li>
+                        <li>Designed and implemented tail lights and battery features using <b>Arduino</b>.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-container left">
+                <div class="exp-card">
+                    <div class="exp-date">Summer 2020</div>
+                    <h3>Cisco - Software Engineer Intern</h3>
+                    <ul class="experience-points">
+                        <li>Explored Enterprise Network Switch architecture and analyzed Power over Ethernet (PoE) data
+                            for performance insights.</li>
+                        <li>Worked with <b>JSON-formatted module</b> and port data and created visualizations using
+                            <b>Elasticsearch and Kibana</b>.</li>
+                        <li>Learned how to structure and interpret switch telemetry data for internal analytics.</li>
+                        <li>Collaborated with a cohort of 2 students and 3 mentors in the "Life as a CS Major/SW
+                            Engineer" program.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Code Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3><i class='bx bx-code'></i> Languages</h3>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>C/C++</span>
+                    <span>JavaScript/TypeScript</span>
+                    <span>Java</span>
+                    <span>MySQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>SystemVerilog</span>
+                    <span>LC-3 & x86 Assembly</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3><i class='bx bx-layer'></i> Frameworks & Libraries</h3>
+                <div class="skill-tags">
+                    <span>React.js</span>
+                    <span>SpringBoot</span>
+                    <span>CrewAI</span>
+                    <span>PyTorch</span>
+                    <span>Streamlit</span>
+                    <span>Flutter/FlutterFlow</span>
+                    <span>Unreal Engine</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3><i class='bx bx-wrench'></i> Developer Tools</h3>
+                <div class="skill-tags">
+                    <span>GitHub</span>
+                    <span>Bitbucket</span>
+                    <span>Docker</span>
+                    <span>Postman</span>
+                    <span>Selenium</span>
+                    <span>Jira</span>
+                    <span>Node.js</span>
+                    <span>REST APIs</span>
+                    <span>Firebase</span>
+                    <span>Espresso</span>
+                    <span>JUnit</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3><i class='bx bx-cube'></i> Technologies & Domains</h3>
+                <div class="skill-tags">
+                    <span>Full-Stack Development</span>
+                    <span>Android Development</span>
+                    <span>Robot Operating System (ROS)</span>
+                    <span>CUDA</span>
+                    <span>LLM Prompt Engineering</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section Code -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <i class='bx  bx-receipt'  ></i> 
+                <h3>Automated AWS Receipt Processing System</h3>
+                <ul class="projects-points">
+                    <li>Developed an event-driven receipt processing system using <b>AWS Lambda, Textract, DynamoDB,
+                            SES, and S3</b>.</li>
+                    <li>Extracted vendor, total, date, and item details from uploaded receipts using Textract's
+                        AnalyzeExpense API.</li>
+                    <li>Stored structured receipt data in DynamoDB and triggered email notifications via Amazon SES.
+                    </li>
+                    <li>Implemented error handling and logging for fault-tolerant processing of uploaded S3 files.</li>
+                </ul>
+            </div>
+            <div class="projects-box">
+                <i class='bx bx-map-pin'></i>
+                <h3>Interactive Travel Platform</h3>
+                <ul class="projects-points">
+                    <li>Built a full-stack travel web application with <b>user authentication, interactive maps, and
+                            wishlist management</b>.</li>
+                    <li>Implemented dynamic attraction filtering and location-based hotel recommendations using the
+                        Haversine formula on geolocation data.</li>
+                    <li>Used <b>Flask, JavaScript, and Google Maps API</b> for dynamic frontend features and routing.
+                    </li>
+                    <li>Integrated datasets on attractions, Airbnbs, and flights, and used <b>Google Cloud SQL</b> for
+                        data management.</li>
+                </ul>
+            </div>
+            <div class="projects-box">
+                <i class='bx bx-cloud'></i>
+                <h3>Weather Forecasting Android App</h3>
+                <ul class="projects-points">
+                    <li>Built a mobile weather app in <b>Android Studio</b> as part of the CS 427 term project,
+                        integrating real-time weather data using a <b>public weather API</b>.</li>
+                    <li>Implemented offline data caching using Room <b>(SQLite)</b>, enabling access to recent weather
+                        info without internet.</li>
+                    <li>Designed user flows including login, map-based location input, and dynamic weather display
+                        screens.</li>
+                    <li>Incorporated <b>Gemini LLM</b> to provide personalized weather insights using API-generated
+                        summaries.</li>
+                    <li>Applied <b>Agile development</b> with milestone-based sprints and tested core functionality
+                        using <b>JUnit</b>.</li>
+                </ul>
+            </div>
+            <div class="projects-box">
+                <i class='bx bx-chart'></i>
+                <h3>Stock Market Predictor</h3>
+                <ul class="projects-points">
+                    <li>Developed a stock forecasting tool using regression-based machine learning models as part of the
+                        AI4ALL program.</li>
+                    <li>Built an interactive UI using <b>Streamlit</b> and implemented data visualization and prediction
+                        evaluation in <b>Python</b>.</li>
+                </ul>
+            </div>
+            <div class="projects-box">
+                <i class='bx bx-bot'></i>
+                <h3>Senior Design: Antweight Battlebot</h3>
+                <ul class="projects-points">
+                    <li>Designed and built a 2lb battlebot with a <b>custom PCB</b>, mecanum wheels, and a spinning
+                        weapon.</li>
+                    <li>Programmed the <b>ESP32-C3</b> for wireless control and integrated <b>DRV8833 motor drivers</b>
+                        and voltage regulators.</li>
+                    <li>Handled embedded software, power calculations, and final hardware integration for demo.</li>
+                </ul>
+            </div>
+
+            <div class="projects-box">
+                <<i class='bx bx-terminal'></i>
+                <h3>Linux OS Development</h3>
+                <ul class="projects-points">
+                    <li>Built a <b>32-bit kernel</b> using <b>C/C++</b> and <b>x86 Assembly</b>, including paging,
+                        interrupts, and system calls.</li>
+                    <li>Implemented Round-Robin scheduling, keyboard/mouse drivers, and an interactive terminal.</li>
+                </ul>
+            </div>
+
+            <div class="projects-box">
+                <i class='bx bx-joystick'></i>
+                <h3>Space Invaders Game</h3>
+                <ul class="projects-points">
+                    <li>Designed and implemented a Space Invaders game using <b>SystemVerilog</b> and <b>FPGA</b> for
+                        real-time play.</li>
+                    <li>Developed animations, <b>input handling</b> via <b>keycodes</b>, and <b>finite state machines
+                            (FSMs)</b> to manage game logic.</li>
+                </ul>
+            </div>
+
+            <div class="projects-box">
+                <i class='bx bx-chip'></i>
+                <h3>WECE Robotic Arm Controller</h3>
+                <ul class="projects-points">
+                    <li>Created a mobile interface using <b>Flutter</b> to control a robotic arm via <b>Bluetooth</b>.
+                    </li>
+                    <li>Programmed the robotic arm's control logic on <b>Arduino</b> and implemented command protocols.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certification Section Code -->
+    <section class="certifications" id="certification">
+        <div class="certification-box">
+
+            <h2 class="heading">Certifications</h2>
+
+            <div class="wrapper">
+                <a href="https://credentials.giesbusiness.illinois.edu/808f156b-aba2-413b-8ece-cdd89d301100#acc.COVRbjyH"
+                    target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+                    <div class="certification-item">
+                        <i class='bx bx-id-card'></i>
+                        <h1>Business Fundamentals</h1>
+                        <p>Click to View the Certification</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/gauthami-yenne/details/certifications/" target="_blank"
+                    rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+                    <div class="certification-item">
+                        <i class='bx bx-award'></i>
+                        <h1>Zscaler Cybersecurity Fundamentals Associate Exam</h1>
+                        <p>Click to View the Certification</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/learning/certificates/74c36e629f12dea76f59cc7aa866cee425b4edfef34b3ebd900695922209aa8c" target="_blank"
+                    rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+                    <div class="certification-item">
+                        <i class='bx bx-award'></i>
+                        <h1>SQL Practice: Basic Queries</h1>
+                        <p>Click to View the Certification</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Code Section -->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/gauthami-yenne/" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://github.com/Gauthami-1" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-github'></i>
+            </a>
+        </div>
+        <p class="copyright">
+            &copy; Gauthami Yenne - All Rights Reserved
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
